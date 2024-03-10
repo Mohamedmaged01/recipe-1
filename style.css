@@ -1,0 +1,79 @@
+:root {
+  --color-p: hsl(14, 45%, 36%);
+  --color-s: hsl(332, 51%, 32%);
+  --brown: hsl(30, 10%, 34%);
+}
+
+body {
+  margin: 50px;
+  line-height: 2.5;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(41, 89%, 96%);
+}
+
+p {
+  font-size: 16px;
+  color: var(--brown);
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  color: var(--color-p);
+}
+
+h3 {
+  color: var(--color-s);
+}
+
+.pt li {
+  color: var(--brown);
+}
+.pt li span {
+  color: var(--color-p);
+  font-weight: 700;
+}
+
+img {
+  margin: auto;
+  width: 100%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  color: var(--brown);
+}
+
+span {
+  font-weight: 700;
+  color: var(--color-p);
+}
+
+.cal {
+  display: inline;
+  margin: 30px;
+  padding: 30px;
+}
+
+.carb {
+  display: inline;
+  margin: 37px;
+  padding: 30px;
+}
+
+.fat {
+  display: inline;
+  margin: 43px;
+  padding: 30px;
+}
+
+.pro {
+  display: inline;
+  margin: 33px;
+  padding: 30px;
+}/*# sourceMappingURL=style.css.map */
